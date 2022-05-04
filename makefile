@@ -8,4 +8,4 @@ borrar:
 subir_git:
 	git add .
 	git commit -m '$(mensaje)'
-	git push origin $(branch)
+	git push -u origin main
